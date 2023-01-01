@@ -18,7 +18,7 @@ AMAZON="https://www.amazon.co.uk/s?k="
 EBAY="https://www.ebay.co.uk/sch/i.html?_nkw="
 ARGOS="https://www.argos.co.uk/search/"
 JOHN="https://www.johnlewis.com/search?search-term="
-# WORK
+# SUPPLIER
 MSDIS="https://www.msdist.co.uk/search?q="
 LITX="https://linitx.com/search.php?keywords="
 SCAN="https://www.scan.co.uk/search?q="
