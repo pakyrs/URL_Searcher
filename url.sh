@@ -18,6 +18,7 @@ AMAZON="https://www.amazon.co.uk/s?k="
 EBAY="https://www.ebay.co.uk/sch/i.html?_nkw="
 ARGOS="https://www.argos.co.uk/search/"
 JOHN="https://www.johnlewis.com/search?search-term="
+HALFORD="https://www.halfords.com/search?q="
 # SUPPLIER
 MSDIS="https://www.msdist.co.uk/search?q="
 LITX="https://linitx.com/search.php?keywords="
@@ -43,6 +44,7 @@ case $CATEGORY in
     $SEARCH "$AMAZON$QUERY"
     $SEARCH "$EBAY$QUERY"
     $SEARCH "$ARGOS$QUERY"
+    $SEARCH "$HALFORD$QUERY"
     ;; 
   
   tech)
