@@ -47,6 +47,7 @@ case $CATEGORY in
     $SEARCH "$ARGOS$QUERY"
     $SEARCH "$HALFORD$QUERY"
     $SEARCH "$JEWSON$QUERY"
+    test
    ;; 
   
   tech)
