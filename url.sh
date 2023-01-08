@@ -31,7 +31,7 @@ LDIR="https://www.laptopsdirect.co.uk/search-results/"
 # 3D Printing
 THING="https://www.thingiverse.com/search?q="
 
-
+# simple case statement
 case $CATEGORY in
 
   diy)
@@ -42,12 +42,11 @@ case $CATEGORY in
     $SEARCH "$BNM$QUERY"
     $SEARCH "$WILKO$QUERY"
     $SEARCH "$BNQ$QUERY"
-    $SEARCH "$AMAZON$QUERY"
-    $SEARCH "$EBAY$QUERY"
     $SEARCH "$ARGOS$QUERY"
     $SEARCH "$HALFORD$QUERY"
-    $SEARCH "$JEWSON$QUERY"
-    test
+    $SEARCH "$JEWSON$QUERY"=
+    $SEARCH "$EBAY$QUERY"
+    $SEARCH "$AMAZON$QUERY"
    ;; 
   
   tech)
@@ -59,11 +58,11 @@ case $CATEGORY in
 
   laptop)
     $SEARCH "$AMAZON$QUERY"
+    $SEARCH "$JOHN$QUERY"
     $SEARCH "$EBAY$QUERY"
     $SEARCH "$SCAN$QUERY"
     $SEARCH "$BOX$QUERY"
     $SEARCH "$LDIR$QUERY"
-    $SEARCH "$JOHN$QUERY"
     ;;
 
    network)
